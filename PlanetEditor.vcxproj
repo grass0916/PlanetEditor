@@ -138,6 +138,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="planet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="creature.h" />
+    <ClInclude Include="coordinate.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="planet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
